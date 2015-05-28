@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Paper Submission Form Page</title>
+</head>
+<body>
+<script src="http://d2g9qbzl5h49rh.cloudfront.net/js/vendor/jquery-1.8.0.min.js?3.2.7269" type="text/javascript"></script>
+<script src="http://d2g9qbzl5h49rh.cloudfront.net/js/vendor/autoFill.min.js?v=3.2.7269" type="text/javascript"></script>
+<script src="http://d2g9qbzl5h49rh.cloudfront.net/static/prototype.forms.js" type="text/javascript"></script>
+<script src="http://d2g9qbzl5h49rh.cloudfront.net/static/jotform.forms.js?3.2.7269" type="text/javascript"></script>
+<script type="text/javascript">
+   JotForm.init(function(){
+      setTimeout(function() {
+          $('input_7').hint('Enter paper name');
+       }, 20);
+      setTimeout(function() {
+          $('input_11').hint('Enter Author(s)');
+       }, 20);
+      setTimeout(function() {
+          $('input_13').hint('Enter the place it was taken');
+       }, 20);
+      JotForm.calendarMonths = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+      JotForm.calendarDays = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"];
+      JotForm.calendarOther = {"today":"Today"};
+      JotForm.setCalendar("10", false, false);
+      setTimeout(function() {
+          $('input_14').hint('Enter size number');
+       }, 20);
+      JotForm.setCustomHint( 'input_19', 'Describe selection of participant' );
+      JotForm.setCustomHint( 'input_12', 'Enter description' );
+      setTimeout(function() {
+          JotForm.autoFillInitialize({"bindChange":"on","menu":"enable","timeout":"30","ttl":"2419200"});
+      }, 10)
+      JotForm.onSubmissionError="jumpToSubmit";
+   });
+</script>
+<link href="http://d2g9qbzl5h49rh.cloudfront.net/static/formCss.css?3.2.7269" rel="stylesheet" type="text/css" />
+<link type="text/css" rel="stylesheet" href="http://d2g9qbzl5h49rh.cloudfront.net/css/styles/nova.css?3.2.7269" />
+<link type="text/css" media="print" rel="stylesheet" href="http://d2g9qbzl5h49rh.cloudfront.net/css/printForm.css?3.2.7269" />
+<style type="text/css">
+    .form-label-left{
+        width:150px !important;
+    }
+    .form-line{
+        padding-top:12px;
+        padding-bottom:12px;
+    }
+    .form-label-right{
+        width:150px !important;
+    }
+    .form-all{
+        width:650px;
+        color:#555 !important;
+        font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Verdana, sans-serif;
+        font-size:14px;
+    }
+    .form-radio-item label, .form-checkbox-item label, .form-grading-label, .form-header{
+        color: #555;
+    }
+
+</style>
+
+<form class="jotform-form" action="http://submit.jotform.co/submit/51474447049864/" method="post" enctype="multipart/form-data" name="form_51474447049864" id="51474447049864" accept-charset="utf-8">
+  <input type="hidden" name="formID" value="51474447049864" />
+  <div class="form-all">
+    <ul class="form-section page-section">
+      <li id="cid_5" class="form-input-wide" data-type="control_head">
+        <div class="form-header-group">
+          <div class="header-text httal htvam">
+            <h2 id="header_5" class="form-header">
+              Paper Submission
+            </h2>
+          </div>
+        </div>
+      </li>
+      <li class="form-line jf-required" data-type="control_textbox" id="id_7">
+        <label class="form-label form-label-left form-label-auto" id="label_7" for="input_7">
+          Paper Name
+          <span class="form-required">
+            *
+          </span>
+        </label>
+        <div id="cid_7" class="form-input jf-required">
+          <input type="text" class=" form-textbox validate[required, AlphaNumeric]" data-type="input-textbox" id="input_7" name="q7_paperName" size="50" value="" />
+        </div>
+      </li>
+      <li class="form-line jf-required" data-type="control_textbox" id="id_11">
+        <label class="form-label form-label-left form-label-auto" id="label_11" for="input_11">
+          Author(s)
+          <span class="form-required">
+            *
+          </span>
+        </label>
+        <div id="cid_11" class="form-input jf-required">
+          <input type="text" class=" form-textbox validate[required, Alphabetic]" data-type="input-textbox" id="input_11" name="q11_authors" size="50" value="" maxlength="50" />
+        </div>
+      </li>
+      <li class="form-line jf-required" data-type="control_textbox" id="id_13">
+        <label class="form-label form-label-left form-label-auto" id="label_13" for="input_13">
+          Place
+          <span class="form-required">
+            *
+          </span>
+        </label>
+        <div id="cid_13" class="form-input jf-required">
+          <input type="text" class=" form-textbox validate[required, AlphaNumeric]" data-type="input-textbox" id="input_13" name="q13_place" size="50" value="" maxlength="50" />
+        </div>
+      </li>
+      <li class="form-line" data-type="control_datetime" id="id_10">
+        <label class="form-label form-label-left form-label-auto" id="label_10" for="input_10"> Date Published </label>
+        <div id="cid_10" class="form-input jf-required">
+          <span class="form-sub-label-container" style="vertical-align: top">
+            <input class="form-textbox" id="month_10" name="q10_datePublished[month]" type="tel" size="2" maxlength="2" value="" />
+            <span class="date-separate">
+              &nbsp;/
+            </span>
+            <label class="form-sub-label" for="month_10" id="sublabel_month" style="min-height: 13px;"> Month </label>
+          </span>
+          <span class="form-sub-label-container" style="vertical-align: top">
+            <input class="form-textbox" id="day_10" name="q10_datePublished[day]" type="tel" size="2" maxlength="2" value="" />
+            <span class="date-separate">
+              &nbsp;/
+            </span>
+            <label class="form-sub-label" for="day_10" id="sublabel_day" style="min-height: 13px;"> Day </label>
+          </span>
+          <span class="form-sub-label-container" style="vertical-align: top">
+            <input class="form-textbox" id="year_10" name="q10_datePublished[year]" type="tel" size="4" maxlength="4" value="" />
+            <label class="form-sub-label" for="year_10" id="sublabel_year" style="min-height: 13px;"> Year </label>
+          </span>
+          <span class="form-sub-label-container" style="vertical-align: top">
+            <img class="showAutoCalendar" alt="Pick a Date" id="input_10_pick" src="http://d2g9qbzl5h49rh.cloudfront.net/images/calendar.png" align="absmiddle" />
+            <label class="form-sub-label" for="input_10_pick" style="min-height: 13px;">  </label>
+          </span>
+        </div>
+      </li>
+      <li class="form-line jf-required" data-type="control_dropdown" id="id_8">
+        <label class="form-label form-label-left form-label-auto" id="label_8" for="input_8">
+          Methodology
+          <span class="form-required">
+            *
+          </span>
+        </label>
+        <div id="cid_8" class="form-input jf-required">
+          <select class="form-dropdown validate[required]" style="width:150px" id="input_8" name="q8_methodology">
+            <option value=""> Please Select </option>
+            <option value="Scrum"> Scrum </option>
+            <option value="Rapid Application Development"> Rapid Application Development </option>
+            <option value="Spiral Development"> Spiral Development </option>
+            <option value="Waterfall"> Waterfall </option>
+            <option value="Prototyping"> Prototyping </option>
+            <option value="Incremental Development"> Incremental Development </option>
+          </select>
+        </div>
+      </li>
+      <li class="form-line" data-type="control_checkbox" id="id_17">
+        <label class="form-label form-label-left form-label-auto" id="label_17" for="input_17"> Type of Experiment </label>
+        <div id="cid_17" class="form-input jf-required">
+          <div class="form-multiple-column" data-columnCount="2">
+            <span class="form-checkbox-item">
+              <input type="checkbox" class="form-checkbox" id="input_17_0" name="q17_typeOfExperiment[]" value="Case Study" />
+              <label for="input_17_0"> Case Study </label>
+            </span>
+            <span class="clearfix">
+            </span>
+            <span class="form-checkbox-item">
+              <input type="checkbox" class="form-checkbox" id="input_17_1" name="q17_typeOfExperiment[]" value="Multi-Case Study" />
+              <label for="input_17_1"> Multi-Case Study </label>
+            </span>
+            <span class="clearfix">
+            </span>
+            <span class="form-checkbox-item" style="clear:left;">
+              <input type="checkbox" class="form-checkbox" id="input_17_2" name="q17_typeOfExperiment[]" value="Controlled Experiment" />
+              <label for="input_17_2"> Controlled Experiment </label>
+            </span>
+            <span class="clearfix">
+            </span>
+            <span class="form-checkbox-item">
+              <input type="checkbox" class="form-checkbox" id="input_17_3" name="q17_typeOfExperiment[]" value="Other" />
+              <label for="input_17_3"> Other </label>
+            </span>
+            <span class="clearfix">
+            </span>
+          </div>
+        </div>
+      </li>
+      <li class="form-line" data-type="control_textbox" id="id_14">
+        <label class="form-label form-label-left form-label-auto" id="label_14" for="input_14"> Sample Size </label>
+        <div id="cid_14" class="form-input jf-required">
+          <input type="text" class=" form-textbox validate[Numeric]" data-type="input-textbox" id="input_14" name="q14_sampleSize" size="20" value="" />
+        </div>
+      </li>
+      <li class="form-line" data-type="control_checkbox" id="id_20">
+        <label class="form-label form-label-left form-label-auto" id="label_20" for="input_20"> Class/Experience Level </label>
+        <div id="cid_20" class="form-input jf-required">
+          <div class="form-multiple-column" data-columnCount="2">
+            <span class="form-checkbox-item">
+              <input type="checkbox" class="form-checkbox" id="input_20_0" name="q20_classexperienceLevel[]" value="Undergraduate Student" />
+              <label for="input_20_0"> Undergraduate Student </label>
+            </span>
+            <span class="clearfix">
+            </span>
+            <span class="form-checkbox-item">
+              <input type="checkbox" class="form-checkbox" id="input_20_1" name="q20_classexperienceLevel[]" value="Professional" />
+              <label for="input_20_1"> Professional </label>
+            </span>
+            <span class="clearfix">
+            </span>
+            <span class="form-checkbox-item" style="clear:left;">
+              <input type="checkbox" class="form-checkbox" id="input_20_2" name="q20_classexperienceLevel[]" value="Other" />
+              <label for="input_20_2"> Other </label>
+            </span>
+            <span class="clearfix">
+            </span>
+          </div>
+        </div>
+      </li>
+      <li class="form-line" data-type="control_textarea" id="id_19">
+        <label class="form-label form-label-left form-label-auto" id="label_19" for="input_19"> Participant Selection </label>
+        <div id="cid_19" class="form-input jf-required">
+          <textarea id="input_19" class="form-textarea validate[AlphaNumeric]" name="q19_participantSelection" cols="65" rows="5"></textarea>
+        </div>
+      </li>
+      <li class="form-line" data-type="control_checkbox" id="id_15">
+        <label class="form-label form-label-left form-label-auto" id="label_15" for="input_15"> Data Selection Method </label>
+        <div id="cid_15" class="form-input jf-required">
+          <div class="form-multiple-column" data-columnCount="2">
+            <span class="form-checkbox-item">
+              <input type="checkbox" class="form-checkbox" id="input_15_0" name="q15_dataSelection[]" value="Code Metrics" />
+              <label for="input_15_0"> Code Metrics </label>
+            </span>
+            <span class="clearfix">
+            </span>
+            <span class="form-checkbox-item">
+              <input type="checkbox" class="form-checkbox" id="input_15_1" name="q15_dataSelection[]" value="Project Artifact(s)" />
+              <label for="input_15_1"> Project Artifact(s) </label>
+            </span>
+            <span class="clearfix">
+            </span>
+            <span class="form-checkbox-item" style="clear:left;">
+              <input type="checkbox" class="form-checkbox" id="input_15_2" name="q15_dataSelection[]" value="Observation" />
+              <label for="input_15_2"> Observation </label>
+            </span>
+            <span class="clearfix">
+            </span>
+            <span class="form-checkbox-item">
+              <input type="checkbox" class="form-checkbox" id="input_15_3" name="q15_dataSelection[]" value="Survey" />
+              <label for="input_15_3"> Survey </label>
+            </span>
+            <span class="clearfix">
+            </span>
+            <span class="form-checkbox-item" style="clear:left;">
+              <input type="checkbox" class="form-checkbox" id="input_15_4" name="q15_dataSelection[]" value="Other" />
+              <label for="input_15_4"> Other </label>
+            </span>
+            <span class="clearfix">
+            </span>
+          </div>
+        </div>
+      </li>
+      <li class="form-line jf-required" data-type="control_textarea" id="id_12">
+        <label class="form-label form-label-left form-label-auto" id="label_12" for="input_12">
+          Description
+          <span class="form-required">
+            *
+          </span>
+        </label>
+        <div id="cid_12" class="form-input jf-required">
+          <textarea id="input_12" class="form-textarea validate[required]" name="q12_description" cols="65" rows="40" maxlength="1000"></textarea>
+        </div>
+      </li>
+      <li class="form-line" data-type="control_fileupload" id="id_9">
+        <label class="form-label form-label-left form-label-auto" id="label_9" for="input_9"> Upload File </label>
+        <div id="cid_9" class="form-input jf-required">
+          <input class="form-upload" type="file" id="input_9" name="q9_uploadFile" file-accept="pdf, doc, docx, xls, xlsx, csv, txt, rtf, html, zip, mp3, wma, mpg, flv, avi, jpg, jpeg, png, gif" file-maxsize="10240" file-minsize="0" file-limit="0" />
+        </div>
+      </li>
+      <li class="form-line" data-type="control_button" id="id_2">
+        <div id="cid_2" class="form-input-wide">
+          <div style="margin-left:156px" class="form-buttons-wrapper">
+            <button id="input_2" type="submit" class="form-submit-button">
+              Submit
+            </button>
+            &nbsp;
+            <button id="input_reset_2" type="reset" class="form-submit-reset">
+              Clear Form
+            </button>
+          </div>
+        </div>
+      </li>
+      <ul class="form-section-closed" style="height: 60px;clear:both;" id="section_22">
+        <li id="cid_22" class="form-input-wide" data-type="control_collapse">
+          <div class="form-collapse-table" id="collapse_22">
+            <span class="form-collapse-mid" id="collapse-text_22">
+              Confidence Rating (Optional)
+            </span>
+            <span class="form-collapse-right form-collapse-right-hide">
+              &nbsp;
+            </span>
+          </div>
+        </li>
+        <li class="form-line" data-type="control_scale" id="id_24">
+          <label class="form-label form-label-left form-label-auto" id="label_24" for="input_24"> Confidence Rating </label>
+          <div id="cid_24" class="form-input jf-required">
+            <table summary="" cellpadding="4" cellspacing="0" class="form-scale-table">
+              <tr>
+                <th>
+                  &nbsp;
+                </th>
+                <th align="center">
+                  <label for="input_24_1"> 1 </label>
+                </th>
+                <th align="center">
+                  <label for="input_24_2"> 2 </label>
+                </th>
+                <th align="center">
+                  <label for="input_24_3"> 3 </label>
+                </th>
+                <th align="center">
+                  <label for="input_24_4"> 4 </label>
+                </th>
+                <th align="center">
+                  <label for="input_24_5"> 5 </label>
+                </th>
+                <th>
+                  &nbsp;
+                </th>
+              </tr>
+              <tr>
+                <td>
+                  <label for="input_24_1"> Worst </label>
+                </td>
+                <td align="center">
+                  <input class="form-radio" type="radio" name="q24_confidenceRating24" value="1" title="1" id="input_24_1" />
+                </td>
+                <td align="center">
+                  <input class="form-radio" type="radio" name="q24_confidenceRating24" value="2" title="2" id="input_24_2" />
+                </td>
+                <td align="center">
+                  <input class="form-radio" type="radio" name="q24_confidenceRating24" value="3" title="3" id="input_24_3" />
+                </td>
+                <td align="center">
+                  <input class="form-radio" type="radio" name="q24_confidenceRating24" value="4" title="4" id="input_24_4" />
+                </td>
+                <td align="center">
+                  <input class="form-radio" type="radio" name="q24_confidenceRating24" value="5" title="5" id="input_24_5" />
+                </td>
+                <td>
+                  <label for="input_24_5"> Best </label>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </li>
+        <li class="form-line" data-type="control_matrix" id="id_21">
+          <label class="form-label form-label-top" id="label_21" for="input_21"> Confidence Rating </label>
+          <div id="cid_21" class="form-input-wide jf-required">
+            <table summary="" cellpadding="4" cellspacing="0" class="form-matrix-table">
+              <tr>
+                <th style="border:none">
+                  &nbsp;
+                </th>
+                <th class="form-matrix-column-headers form-matrix-column_0">
+                  Not Confident
+                </th>
+                <th class="form-matrix-column-headers form-matrix-column_1">
+                  Somewhat Confident
+                </th>
+                <th class="form-matrix-column-headers form-matrix-column_2">
+                  Neutral
+                </th>
+                <th class="form-matrix-column-headers form-matrix-column_3">
+                  Somewhat Confident
+                </th>
+                <th class="form-matrix-column-headers form-matrix-column_4">
+                  Very Confident
+                </th>
+              </tr>
+              <tr>
+                <th align="left" class="form-matrix-row-headers">
+                  Paper Quality
+                </th>
+                <td align="center" class="form-matrix-values">
+                  <input id="input_21_0_0" class="form-radio" type="radio" name="q21_confidenceRating[0]" value="Not Confident" />
+                </td>
+                <td align="center" class="form-matrix-values">
+                  <input id="input_21_0_1" class="form-radio" type="radio" name="q21_confidenceRating[0]" value="Somewhat Confident" />
+                </td>
+                <td align="center" class="form-matrix-values">
+                  <input id="input_21_0_2" class="form-radio" type="radio" name="q21_confidenceRating[0]" value="Neutral" />
+                </td>
+                <td align="center" class="form-matrix-values">
+                  <input id="input_21_0_3" class="form-radio" type="radio" name="q21_confidenceRating[0]" value="Somewhat Confident" />
+                </td>
+                <td align="center" class="form-matrix-values">
+                  <input id="input_21_0_4" class="form-radio" type="radio" name="q21_confidenceRating[0]" value="Very Confident" />
+                </td>
+              </tr>
+              <tr>
+                <th align="left" class="form-matrix-row-headers">
+                  Helpful
+                </th>
+                <td align="center" class="form-matrix-values">
+                  <input id="input_21_1_0" class="form-radio" type="radio" name="q21_confidenceRating[1]" value="Not Confident" />
+                </td>
+                <td align="center" class="form-matrix-values">
+                  <input id="input_21_1_1" class="form-radio" type="radio" name="q21_confidenceRating[1]" value="Somewhat Confident" />
+                </td>
+                <td align="center" class="form-matrix-values">
+                  <input id="input_21_1_2" class="form-radio" type="radio" name="q21_confidenceRating[1]" value="Neutral" />
+                </td>
+                <td align="center" class="form-matrix-values">
+                  <input id="input_21_1_3" class="form-radio" type="radio" name="q21_confidenceRating[1]" value="Somewhat Confident" />
+                </td>
+                <td align="center" class="form-matrix-values">
+                  <input id="input_21_1_4" class="form-radio" type="radio" name="q21_confidenceRating[1]" value="Very Confident" />
+                </td>
+              </tr>
+              <tr>
+                <th align="left" class="form-matrix-row-headers">
+                  Evidence Quality
+                </th>
+                <td align="center" class="form-matrix-values">
+                  <input id="input_21_2_0" class="form-radio" type="radio" name="q21_confidenceRating[2]" value="Not Confident" />
+                </td>
+                <td align="center" class="form-matrix-values">
+                  <input id="input_21_2_1" class="form-radio" type="radio" name="q21_confidenceRating[2]" value="Somewhat Confident" />
+                </td>
+                <td align="center" class="form-matrix-values">
+                  <input id="input_21_2_2" class="form-radio" type="radio" name="q21_confidenceRating[2]" value="Neutral" />
+                </td>
+                <td align="center" class="form-matrix-values">
+                  <input id="input_21_2_3" class="form-radio" type="radio" name="q21_confidenceRating[2]" value="Somewhat Confident" />
+                </td>
+                <td align="center" class="form-matrix-values">
+                  <input id="input_21_2_4" class="form-radio" type="radio" name="q21_confidenceRating[2]" value="Very Confident" />
+                </td>
+              </tr>
+              <tr>
+                <th align="left" class="form-matrix-row-headers">
+                  Overall Quality
+                </th>
+                <td align="center" class="form-matrix-values">
+                  <input id="input_21_3_0" class="form-radio" type="radio" name="q21_confidenceRating[3]" value="Not Confident" />
+                </td>
+                <td align="center" class="form-matrix-values">
+                  <input id="input_21_3_1" class="form-radio" type="radio" name="q21_confidenceRating[3]" value="Somewhat Confident" />
+                </td>
+                <td align="center" class="form-matrix-values">
+                  <input id="input_21_3_2" class="form-radio" type="radio" name="q21_confidenceRating[3]" value="Neutral" />
+                </td>
+                <td align="center" class="form-matrix-values">
+                  <input id="input_21_3_3" class="form-radio" type="radio" name="q21_confidenceRating[3]" value="Somewhat Confident" />
+                </td>
+                <td align="center" class="form-matrix-values">
+                  <input id="input_21_3_4" class="form-radio" type="radio" name="q21_confidenceRating[3]" value="Very Confident" />
+                </td>
+              </tr>
+            </table>
+          </div>
+        </li>
+        <li class="form-line" data-type="control_textarea" id="id_23">
+          <label class="form-label form-label-left form-label-auto" id="label_23" for="input_23"> Explain </label>
+          <div id="cid_23" class="form-input jf-required">
+            <textarea id="input_23" class="form-textarea" name="q23_explain" cols="65" rows="6"></textarea>
+          </div>
+        </li>
+        <li class="form-line" data-type="control_button" id="id_25">
+          <div id="cid_25" class="form-input-wide">
+            <div style="margin-left:156px" class="form-buttons-wrapper">
+              <button id="input_25" type="submit" class="form-submit-button">
+                Submit
+              </button>
+              &nbsp;
+              <button id="input_reset_25" type="reset" class="form-submit-reset">
+                Clear Form
+              </button>
+            </div>
+          </div>
+        </li>
+        <li style="display:none">
+          Should be Empty:
+          <input type="text" name="website" value="" />
+        </li>
+      </ul>
+  </div>
+  <input type="hidden" id="simple_spc" name="simple_spc" value="51474447049864" />
+  <script type="text/javascript">
+  document.getElementById("si" + "mple" + "_spc").value = "51474447049864-51474447049864";
+  </script>
+</form>
+</body>
+</html>
