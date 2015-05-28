@@ -6,11 +6,90 @@ color: blue;
 .header{
 position: center;
 padding: 7px 10px 4px 10px;
-background-color: #f0f0f0;
+height: 170px;
+background-color: #ffffff;
+border-width: 3px;
+border-bottom: 2px black solid;
 }
 
 .companyNameIcon{
-margin-left: auto;
-margin-right: auto;
-width: 70%;
+position: absolute;
+margin-top: 20px;
+margin-bottom: auto;
+width: 80%;
+}
+
+.statusBar{
+position: relative;
+float:right;
+padding-top: 140px;
+width: 380px;
+text-align: right;
+font-family: "Comic Sans MS", Monospace;
+font-weight: bold;
+}
+
+user{
+color: #666666;
+font-weight: normal;
+font-size: 90%;
+}
+
+.form{
+position: relative;
+float: right;
+margin-left: 0px;
+padding-bottom: 50px;
+width: 1220px;
+}
+
+.body{
+position:center;
+}
+
+.nav{
+float: left;
+border: 2px black solid;
+width: 180px;
+height: 350px;
+border-radius: 12px;
+margin: 30px 20px;
+padding: 15px;
+font-family:"Comic Sans MS", Monospace;
+text-align: center;
+}
+
+
+.btn {
+  background: #26e33c;
+  background-image: -webkit-linear-gradient(top, #26e33c, #148f31);
+  background-image: -moz-linear-gradient(top, #26e33c, #148f31);
+  background-image: -ms-linear-gradient(top, #26e33c, #148f31);
+  background-image: -o-linear-gradient(top, #26e33c, #148f31);
+  background-image: linear-gradient(to bottom, #26e33c, #148f31);
+  float: right;
+  width: 60px;
+  height: 20px;
+  margin-top: 2px;
+  margin-left: 5px;
+  -webkit-border-radius: 15;
+  -moz-border-radius: 15;
+  border-radius: 8px;
+  text-shadow: 1px 1px 1px #f7f7f7;
+  font-family: Arial;
+  text-align: center;
+  color: #ffffff;
+  font-size: 14px;
+  padding: 20x 20px 10px 25px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #d4ff45;
+  background-image: -webkit-linear-gradient(top, #d4ff45, #87940d);
+  background-image: -moz-linear-gradient(top, #d4ff45, #87940d);
+  background-image: -ms-linear-gradient(top, #d4ff45, #87940d);
+  background-image: -o-linear-gradient(top, #d4ff45, #87940d);
+  background-image: linear-gradient(to bottom, #d4ff45, #87940d);
+  text-decoration: none;
 }
